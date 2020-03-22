@@ -12,7 +12,7 @@ ddns_params = dict(
     format="json",
     domain_id=82800057,  # 调用getDomainList 获取 并写入
     record_id=559488514,  # 调用list 获取
-    sub_domain="test",  # replace with your sub_domain
+    sub_domain="@",  # 改为直接指向域名
     record_line_id=0,
 )
 
